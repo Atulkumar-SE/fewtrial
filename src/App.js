@@ -1,14 +1,18 @@
-import './App.css';
+import React from 'react'
+import Footer from './Components/BasicBody/Footer';
+import Header from './Components/BasicBody/Header';
+import Navbar from './Components/BasicBody/Navbar';
+import Body from './Components/MainBody/Body';
 
 function App() {
   return (
-   <>
-   <div><h1>navbar</h1></div>
-    <h1>Fewwork Dummy</h1>
-    <h2>This is for trial only </h2>
-    <h3>Team collabration</h3>
-   </>
-  );
+    <>
+      <Navbar/>
+      <Header/>
+      <Body/>
+      <Footer/>
+    </>
+  )
 }
 
 export default App;
