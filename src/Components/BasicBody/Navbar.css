@@ -244,13 +244,17 @@
     font-size: 2rem;
   }
   .few {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
   .user a {
     grid-column: 3/4;
   }
   .mobile_menu_list {
     grid-column: 2/4;
+  }
+  .mobile_menu_list ul li a{
+    font-weight: 300;
+    font-size: 1rem;
   }
   .user_icon {
     display: none;
