@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="main_nav">
         {/*--------------------------Logo--------------------------- */}
         <div className="logo">
-          <img src={process.env.PUBLIC_URL+"/images/logo.svg"} alt="Logo" />
+          <img src={process.env.PUBLIC_URL + "/images/logo.svg"} alt="Logo" />
           <span className="few">Few</span>
           <span className="work">work</span>
         </div>
@@ -24,8 +24,11 @@ const Navbar = () => {
           </button>
         </div>
         {/*-----------------------------Menu list--------------------- */}
-        <div className={showMenubtn ? "menu_list mobile_menu_list" : "menu_list"}>
-          <ul>
+        <div
+          className={showMenubtn ? "menu_list mobile_menu_list" : "menu_list"}
+          id="Mob_menu_list"
+        >
+          <ul className="mobile_menu_list_content">
             <li>
               <a href="">Home</a>
             </li>
@@ -45,9 +48,13 @@ const Navbar = () => {
         </div>
         {/*-------------------------User Account----------------------- */}
         <div className="user">
-          <img src={process.env.PUBLIC_URL + "/images/user.svg"} alt="User"  className="user_icon"/>
-          <a href="#"  onClick={() => setShowMenubtn(!showMenubtn)}>
-            <img src={process.env.PUBLIC_URL+"/images/menu.svg"} alt="menu" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/user.svg"}
+            alt="User"
+            className="user_icon"
+          />
+          <a href="#" onClick={() => setShowMenubtn(!showMenubtn)}>
+            <img src={process.env.PUBLIC_URL + "/images/menu.svg"} alt="menu" />
           </a>
         </div>
       </nav>

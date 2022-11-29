@@ -7,7 +7,7 @@ function Footer() {
         <div className="card-group ">
           <div
             className="card-body text-center logo_icon"
-            style={{ width: "25rem" }}
+            style={{ width: "20rem" }}
           >
             <a href="#" className="card-link ">
               <img
