@@ -6,9 +6,12 @@
   width: 80%;
   height: 5.12rem;
   display: flex;
-  background-color: rgb(238, 156, 156);
+  background-color: rgb(255, 255, 255);
   margin: auto;
   align-items: center;
+}
+.main_header button{
+  background-color: rgb(255, 255, 255);
 }
 /* .mob_header_menu {
   display: block;
@@ -16,6 +19,7 @@
 @media (max-width: 900px) {
   .main_header {
     width: 90%;
+   
   }
   .btn1 {
     display: block;
@@ -25,18 +29,27 @@
   .btn2 {
     display: none;
   }
-  .btn button img {
+  img {
    width: 2rem;
-   height: 1rem;
+   height: 2rem;
   }
+  /* .btn_container{
+    background-color: #40ff00;
+    position: absolute;
+    
+    
+  } */
 }
 @media (max-width: 480px) {
   .main_header {
-    width: 100%;
+    width: 90%;
   }
   .btn1 {
+    font-size: .7rem;
     display: block;
-    font-size: 10px;
+    margin-left: -.5rem;
+    margin-right: -1rem;
+    background-color: white;
   }
   .toggle_menu_item li {
    margin-left: -1rem;
