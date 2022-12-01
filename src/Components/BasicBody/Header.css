@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main_header {  
+  width: 80%;
+  height: 5.12rem;
+  display: flex;
+  background-color: rgb(238, 156, 156);
+  margin: auto;
+  align-items: center;
+}
+/* .mob_header_menu {
+  display: block;
+} */
+@media (max-width: 900px) {
+  .main_header {
+    width: 90%;
+  }
+  .btn1 {
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .btn2 {
+    display: none;
+  }
+  .btn button img {
+   width: 2rem;
+   height: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .main_header {
+    width: 100%;
+  }
+  .btn1 {
+    display: block;
+    font-size: 10px;
+  }
+  .toggle_menu_item li {
+   margin-left: -1rem;
+   background-color: aqua;
+  }
+}

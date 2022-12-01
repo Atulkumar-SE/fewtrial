@@ -1,7 +1,14 @@
 import React, { useState } from "react";
+import RegistrationForm from "../Login & Registration form/RegistrationForm";
 import "./Navbar.css";
 
+
 const Navbar = () => {
+  
+  function Reg_form(){
+    alert("hello")
+     
+  }
   const [showMenubtn, setShowMenubtn] = useState(false);
   return (
     <>
@@ -42,7 +49,7 @@ const Navbar = () => {
               <a href="">Latest Job</a>
             </li>
             <li className="mobile_user_account">
-              <a href="">User Account</a>
+              <a href="" onClick={()=> Reg_form(RegistrationForm)}>User Account</a>
             </li>
           </ul>
         </div>
