@@ -44,6 +44,7 @@
     width: 90%;
   }
   .btn1 {
+    border: 0;
     font-size: 0.7rem;
     display: block;
     margin-left: -0.5rem;
