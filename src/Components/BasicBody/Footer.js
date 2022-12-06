@@ -6,7 +6,7 @@ function Footer() {
       <div className="card footer_container">
         <div className="card-group ">
           <div
-            className="card-body text-center logo_icon"
+            className="card-body text-center footer_logo_icon"
             style={{ width: "20rem" }}
           >
             <a href="#" className="card-link ">
@@ -16,7 +16,7 @@ function Footer() {
               />
             </a>
             <div>
-            <p className="footer_fewwork">Fewwork</p>
+              <p className="footer_fewwork">Fewwork</p>
               {/* <a className="footer_fewwork">
                 Fewwork
               </a> */}

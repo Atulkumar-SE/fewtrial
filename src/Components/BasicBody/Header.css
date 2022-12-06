@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-.main_header {  
+.main_header {
   width: 80%;
   height: 5.12rem;
   display: flex;
@@ -10,7 +10,7 @@
   margin: auto;
   align-items: center;
 }
-.main_header button{
+.main_header button {
   background-color: rgb(255, 255, 255);
 }
 /* .mob_header_menu {
@@ -19,20 +19,18 @@
 @media (max-width: 900px) {
   .main_header {
     width: 90%;
-   
   }
   .btn1 {
     display: block;
     font-size: 1rem;
   }
-  
+
   .btn2 {
     display: none;
-   
   }
-  img {
-   width: 2rem;
-   height: 2rem;
+  .btn_container img {
+    width: 2rem;
+    height: 2rem;
   }
   /* .btn_container{
     background-color: #40ff00;
@@ -46,11 +44,10 @@
     width: 90%;
   }
   .btn1 {
-    font-size: .7rem;
+    font-size: 0.7rem;
     display: block;
-    margin-left: -.5rem;
+    margin-left: -0.5rem;
     margin-right: -1rem;
     background-color: white;
   }
- 
 }

@@ -7,7 +7,10 @@ function Header() {
       <div className="d-flex justify-content-between main_header">
         {/* <div className="d-flex "> */}
         <div className="btn btn_container">
-          <img src={process.env.PUBLIC_URL + "/images/office bag.svg"} alt="location" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/office bag.svg"}
+            alt="location"
+          />
           <button type="button" className="btn btn-light btn1">
             JobType
           </button>
@@ -47,7 +50,10 @@ function Header() {
           </ul>
         </div>
         <div className="btn btn_container">
-          <img src={process.env.PUBLIC_URL + "/images/building.svg"} alt="building" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/building.svg"}
+            alt="building"
+          />
           <button type="button" className="btn btn-light btn1 city">
             City
           </button>
@@ -87,7 +93,10 @@ function Header() {
           </ul>
         </div>
         <div className="btn btn_container">
-          <img src={process.env.PUBLIC_URL + "/images/i-location.svg"} alt="location" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/i-location.svg"}
+            alt="location"
+          />
           <button type="button" className="btn btn-light btn1">
             Area/Location
           </button>
