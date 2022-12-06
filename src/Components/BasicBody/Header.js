@@ -48,7 +48,7 @@ function Header() {
         </div>
         <div className="btn btn_container">
           <img src={process.env.PUBLIC_URL + "/images/building.svg"} alt="building" />
-          <button type="button" className="btn btn-light btn1">
+          <button type="button" className="btn btn-light btn1 city">
             City
           </button>
           <button

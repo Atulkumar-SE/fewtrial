@@ -1,3 +1,5 @@
+/*------------------Apply Process-------------------*/
+
 .apply_process_container {
   padding: 3rem;
   text-align: center;
@@ -7,22 +9,21 @@
   text-align: center;
   padding-bottom: 2rem;
 }
-.card{
-    border: 0;
+.card {
+  border: 0;
 }
-.card-body h5{
+.card-body h5 {
   margin-left: -2rem;
-  
 }
 /* .text{
     background-color: aqua;
     width: 100%;
      display: block;
 } */
-.card_container{
-    border: 1px solid #00000039;
-    border-radius: 10px;
-    box-shadow: 5px 5px 8px #0000003f;
+.card_container {
+  border: 1px solid #00000039;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #0000003f;
 }
 .apply_icon {
   width: 5rem;
@@ -50,12 +51,99 @@
 } */
 @media (max-width: 576px) {
   .arrow {
-display:inline;
-   justify-content: center;
+    display: inline;
+    justify-content: center;
   }
   .arrow_right {
     width: 4rem;
     height: 4rem;
     transform: rotate(90deg);
+  }
+}
+
+/* -------------------------------High Paying Companies section-------------------------- */
+
+.carousel_main_container {
+  /* background-color: rgb(5, 119, 81); */
+}
+.carousel_main_container h2 {
+  text-align: center;
+}
+.carousel_item {
+  width: 90%;
+  margin: auto;
+  /* padding: 1rem; */
+  /* display: flex; */
+  text-align: center;
+  /* background-color: rgb(255, 138, 138); */
+}
+.img_container {
+  width: 13rem;
+  height: 8rem;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 2rem;
+  box-shadow: 5px 5px 8px #0000003f;
+  /* background-color: rgb(3, 244, 3); */
+}
+.img_container img {
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 12%; */
+  width: auto;
+  height: auto;
+}
+.mob_slider {
+  display: block;
+}
+@media (max-width: 720px) {
+  .img_container {
+    width: 11rem;
+    height: 8rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 5px 5px 8px #0000003f;
+    /* background-color: rgb(3, 244, 3); */
+  }
+  .ic {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel_main_container {
+    display: block;
+    justify-content: space-evenly;
+    /* background-color: rgb(76, 122, 122); */
+  }
+
+  .carousel_item {
+    width: 90%;
+    /* background-color: rgb(249, 105, 105); */
+  }
+  .img_container {
+    width: 11rem;
+    height: 8rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: -30px;
+    box-shadow: 5px 5px 8px #0000003f;
+    /* background-color: rgb(3, 244, 3); */
+  }
+  .ic {
+    margin-right: -30px;
+  }
+  .img_container img {
+    width: 8rem;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 12%; */
+  }
+
+  .mob_slider {
+    display: block;
   }
 }
