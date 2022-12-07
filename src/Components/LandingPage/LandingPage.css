@@ -60,6 +60,16 @@
     transform: rotate(90deg);
   }
 }
+/*---------------------------------Banner------------------------------*/
+.banner img{
+  width: 100%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+
+
 
 /* -------------------------------High Paying Companies section-------------------------- */
 
@@ -120,20 +130,20 @@
   }
 
   .carousel_item {
-    width: 90%;
+    width: 100%;
     /* background-color: rgb(249, 105, 105); */
   }
   .img_container {
-    width: 11rem;
+    width: 10rem;
     height: 8rem;
     border-radius: 10px;
     display: inline-block;
-    margin-left: -30px;
-    box-shadow: 5px 5px 8px #0000003f;
+    margin-left: -25px;
+    box-shadow: 3px 3px 8px #0000003f;
     /* background-color: rgb(3, 244, 3); */
   }
   .ic {
-    margin-right: -30px;
+    margin-right: -25px;
   }
   .img_container img {
     width: 8rem;
