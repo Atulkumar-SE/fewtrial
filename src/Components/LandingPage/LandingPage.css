@@ -59,6 +59,7 @@
     height: 4rem;
     transform: rotate(90deg);
   }
+  
 }
 /*---------------------------------Banner------------------------------*/
 .banner img{
@@ -67,7 +68,9 @@
   padding-top: 1rem;
   padding-bottom: 4rem;
 }
-
+.mob_banner{
+  display: none;
+}
 
 
 
@@ -155,5 +158,9 @@
 
   .mob_slider {
     display: block;
+  }
+  .mob_banner{display: block;}
+  .web_banner{
+   display: none;
   }
 }
