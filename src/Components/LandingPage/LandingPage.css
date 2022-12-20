@@ -61,6 +61,35 @@
   }
   
 }
+/* -------------------------Top Job Categories------------------------ */
+.topjob_main_container{
+  background-color: green;
+  width: 50%;
+}
+.carousel-item img{
+  width: 10rem;
+  height: 10rem;
+}
+.topjob_slide1{
+  background-color: red;
+}
+.topjob_slide_container{
+  background-color: palevioletred;
+  width: 80%;
+  margin: auto;
+}
+
+.topjob_items div{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0);
+  border: 5px solid gray;
+}
+.topjob_items li{
+ 
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 1rem;
+}
 /*---------------------------------Banner------------------------------*/
 .banner img{
   width: 100%;
